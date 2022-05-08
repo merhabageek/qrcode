@@ -1,0 +1,36 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: aliceblue;
+    overflow: hidden;
+}
+.card-body {
+    width: 40%;
+    height: 75%;
+    margin: auto;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 2px 20px 5px rgb(0 0 0 / 10%);
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.qr-code {
+    padding: 10px;
+}
+.qr-image {
+    width: 100%;
+    height: 50%;
+    border-radius: 10px;
+}
+.line1 {
+    line-height: 1.2em;
+    margin-top: 10px;   
+}
+.line2 {
+    color: darkgray;
+}
+.line1, .line2{
+    font-family: sans-serif;
+    padding: 0 20px;
+    text-align: center;
+}
